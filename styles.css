@@ -1,0 +1,26 @@
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        header, footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        .container {
+            flex: 1;
+            display: flex;
+        }
+        nav {
+            width: 200px;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        section {
+            flex: 1;
+            padding: 20px;
+        }
